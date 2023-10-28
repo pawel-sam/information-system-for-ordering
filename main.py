@@ -5,23 +5,23 @@ from PyQt5.QtWidgets import QMainWindow, QApplication
 
 from ui_main import *
 
-dictionary = {1:'Сухой корм вкус курицы',
-            2:'Сухой корм вкус индейки',
-            3:'Жидкий корм вкус рыбы',
-            4:'Жидкий корм вкус томата',
-            5:'Игрушка с ароматизатором курицы',
-            6:'Игрушка с ароматизатором мяты',
-            7:'Игрушка в виде серой мыши',
-            8:'Игрушка в виде воробья',
-            9:'Крупный древесный наполнитель',
-            10:'Мелкий древесный наполнитель'}
+dictionary = {1: 'Сухой корм вкус курицы',
+              2: 'Сухой корм вкус индейки',
+              3: 'Жидкий корм вкус рыбы',
+              4: 'Жидкий корм вкус томата',
+              5: 'Игрушка с ароматизатором курицы',
+              6: 'Игрушка с ароматизатором мяты',
+              7: 'Игрушка в виде серой мыши',
+              8: 'Игрушка в виде воробья',
+              9: 'Крупный древесный наполнитель',
+              10: 'Мелкий древесный наполнитель'}
 
-dictionary_2 = {1:'Корма',
-            2:'Игрушки',
-            3:'Наполнители',
-            4:'Лекарственные препараты',
-            5:'Средства гигиены',
-            6:'Одежда'}
+dictionary_2 = {1: 'Корма',
+                2: 'Игрушки',
+                3: 'Наполнители',
+                4: 'Лекарственные препараты',
+                5: 'Средства гигиены',
+                6: 'Одежда'}
 
 
 class MainWindow(QMainWindow):
@@ -33,18 +33,16 @@ class MainWindow(QMainWindow):
 
         self.ui.frame_left_menu.enterEvent = self.button_hovered
         self.ui.frame_left_menu.leaveEvent = self.button_left
-        self.ui.btn_menu.clicked.connect(partial(self.ui.Widget_pages.setCurrentWidget, self.ui.page_home))
-        self.ui.btn_categories.clicked.connect(partial(self.ui.Widget_pages.setCurrentWidget, self.ui.page_2))
+        self.ui.catalog.clicked.connect(partial(self.ui.Widget_pages.setCurrentWidget, self.ui.page_catalog))
+        self.ui.categories.clicked.connect(partial(self.ui.Widget_pages.setCurrentWidget, self.ui.page_categories))
 
         data_list = [f'{key}: {value}' for key, value in dictionary.items()]
         model = QStringListModel(data_list)
-        self.ui.listView_2.setModel(model)
+        self.ui.list_products.setModel(model)
 
         data_list = [f'{key}: {value}' for key, value in dictionary_2.items()]
         model = QStringListModel(data_list)
-        self.ui.listView_3.setModel(model)
-
-
+        self.ui.list_categories.setModel(model)
 
     def button_hovered(self, enable):
         if enable:

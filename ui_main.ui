@@ -44,7 +44,7 @@
       <property name="maximumSize">
        <size>
         <width>16777215</width>
-        <height>40</height>
+        <height>45</height>
        </size>
       </property>
       <property name="styleSheet">
@@ -73,69 +73,6 @@
         <number>0</number>
        </property>
        <item>
-        <widget class="QFrame" name="frame_menu">
-         <property name="maximumSize">
-          <size>
-           <width>70</width>
-           <height>40</height>
-          </size>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(194, 150, 95);</string>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::StyledPanel</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Raised</enum>
-         </property>
-         <layout class="QVBoxLayout" name="verticalLayout_2">
-          <property name="spacing">
-           <number>0</number>
-          </property>
-          <property name="leftMargin">
-           <number>0</number>
-          </property>
-          <property name="topMargin">
-           <number>0</number>
-          </property>
-          <property name="rightMargin">
-           <number>0</number>
-          </property>
-          <property name="bottomMargin">
-           <number>0</number>
-          </property>
-          <item>
-           <widget class="QPushButton" name="btn_menu">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-              <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">QPushButton {
-	font: 87 8pt &quot;Montserrat Black&quot;;
-	border: 0px solid;	
-}
-
-QPushButton:hover {
-	background-color: rgb(195, 150, 95);
-}
-
-
-
-</string>
-            </property>
-            <property name="text">
-             <string>меню</string>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </widget>
-       </item>
-       <item>
         <widget class="QFrame" name="frame_btn_menu">
          <property name="frameShape">
           <enum>QFrame::StyledPanel</enum>
@@ -147,7 +84,7 @@ QPushButton:hover {
           <item>
            <widget class="QLabel" name="label">
             <property name="styleSheet">
-             <string notr="true">font: 87 8pt &quot;Montserrat Black&quot;;</string>
+             <string notr="true">font: 87 15pt &quot;Montserrat Black&quot;;</string>
             </property>
             <property name="text">
              <string>Информационная система для оформления заказа в Зоомагазине</string>
@@ -248,22 +185,46 @@ QPushButton:hover {
               <number>0</number>
              </property>
              <item>
-              <widget class="QPushButton" name="btn_categories">
+              <widget class="QPushButton" name="catalog">
                <property name="minimumSize">
                 <size>
                  <width>0</width>
-                 <height>40</height>
+                 <height>80</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+	font: 87 17pt &quot;Montserrat Black&quot;;
+	background-color: rgb(255, 197, 125);
+	border: 0px solid;	
+}
+
+QPushButton:hover {
+	background-color: rgb(195, 150, 95);
+}</string>
+               </property>
+               <property name="text">
+                <string>Каталог</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="categories">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>80</height>
                 </size>
                </property>
                <property name="maximumSize">
                 <size>
                  <width>16777215</width>
-                 <height>40</height>
+                 <height>16777215</height>
                 </size>
                </property>
                <property name="styleSheet">
                 <string notr="true">QPushButton {
-	font: 87 8pt &quot;Montserrat Black&quot;;
+	font: 87 17pt &quot;Montserrat Black&quot;;
 	background-color: rgb(255, 197, 125);
 	border: 0px solid;	
 }
@@ -278,16 +239,16 @@ QPushButton:hover {
               </widget>
              </item>
              <item>
-              <widget class="QPushButton" name="btn_products">
+              <widget class="QPushButton" name="products">
                <property name="minimumSize">
                 <size>
                  <width>0</width>
-                 <height>40</height>
+                 <height>80</height>
                 </size>
                </property>
                <property name="styleSheet">
                 <string notr="true">QPushButton {
-	font: 87 8pt &quot;Montserrat Black&quot;;
+	font: 87 17pt &quot;Montserrat Black&quot;;
 	background-color: rgb(255, 197, 125);
 	border: 0px solid;	
 }
@@ -302,16 +263,16 @@ QPushButton:hover {
               </widget>
              </item>
              <item>
-              <widget class="QPushButton" name="btn_orders">
+              <widget class="QPushButton" name="orders">
                <property name="minimumSize">
                 <size>
                  <width>0</width>
-                 <height>40</height>
+                 <height>80</height>
                 </size>
                </property>
                <property name="styleSheet">
                 <string notr="true">QPushButton {
-	font: 87 8pt &quot;Montserrat Black&quot;;
+	font: 87 17pt &quot;Montserrat Black&quot;;
 	background-color: rgb(255, 197, 125);
 	border: 0px solid;	
 }
@@ -326,16 +287,16 @@ QPushButton:hover {
               </widget>
              </item>
              <item>
-              <widget class="QPushButton" name="btn_reports">
+              <widget class="QPushButton" name="reports">
                <property name="minimumSize">
                 <size>
                  <width>0</width>
-                 <height>40</height>
+                 <height>80</height>
                 </size>
                </property>
                <property name="styleSheet">
                 <string notr="true">QPushButton {
-	font: 87 8pt &quot;Montserrat Black&quot;;
+	font: 87 17pt &quot;Montserrat Black&quot;;
 	background-color: rgb(255, 197, 125);
 	border: 0px solid;	
 }
@@ -346,30 +307,6 @@ QPushButton:hover {
                </property>
                <property name="text">
                 <string>Отчеты</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QPushButton" name="btn_catalog">
-               <property name="minimumSize">
-                <size>
-                 <width>0</width>
-                 <height>40</height>
-                </size>
-               </property>
-               <property name="styleSheet">
-                <string notr="true">QPushButton {
-	font: 87 8pt &quot;Montserrat Black&quot;;
-	background-color: rgb(255, 197, 125);
-	border: 0px solid;	
-}
-
-QPushButton:hover {
-	background-color: rgb(195, 150, 95);
-}</string>
-               </property>
-               <property name="text">
-                <string>Каталог</string>
                </property>
               </widget>
              </item>
@@ -417,8 +354,15 @@ QPushButton:hover {
            <number>0</number>
           </property>
           <item>
+           <layout class="QVBoxLayout" name="verticalLayout_6">
+            <property name="spacing">
+             <number>6</number>
+            </property>
+           </layout>
+          </item>
+          <item>
            <widget class="QStackedWidget" name="Widget_pages">
-            <widget class="QWidget" name="page_home">
+            <widget class="QWidget" name="page_catalog">
              <layout class="QHBoxLayout" name="horizontalLayout_3">
               <property name="spacing">
                <number>0</number>
@@ -452,29 +396,195 @@ QPushButton:hover {
                 <property name="horizontalSpacing">
                  <number>0</number>
                 </property>
-                <item row="0" column="0">
-                 <widget class="QListView" name="listView_2"/>
-                </item>
+                <property name="verticalSpacing">
+                 <number>6</number>
+                </property>
                 <item row="0" column="1">
-                 <widget class="QListView" name="listView"/>
+                 <spacer name="horizontalSpacer">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
                 </item>
-                <item row="2" column="1" alignment="Qt::AlignRight">
-                 <widget class="QPushButton" name="btn_arrange">
+                <item row="0" column="0">
+                 <widget class="QFrame" name="frame">
                   <property name="minimumSize">
                    <size>
-                    <width>150</width>
-                    <height>30</height>
+                    <width>0</width>
+                    <height>40</height>
                    </size>
                   </property>
                   <property name="maximumSize">
                    <size>
-                    <width>150</width>
-                    <height>16777215</height>
+                    <width>16777215</width>
+                    <height>40</height>
+                   </size>
+                  </property>
+                  <property name="frameShape">
+                   <enum>QFrame::StyledPanel</enum>
+                  </property>
+                  <property name="frameShadow">
+                   <enum>QFrame::Raised</enum>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_5">
+                   <property name="spacing">
+                    <number>5</number>
+                   </property>
+                   <property name="leftMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="topMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="rightMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="bottomMargin">
+                    <number>0</number>
+                   </property>
+                   <item>
+                    <widget class="QComboBox" name="comboBox_categories">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>40</height>
+                      </size>
+                     </property>
+                     <property name="autoFillBackground">
+                      <bool>false</bool>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">font: 87 13pt &quot;Montserrat Black&quot;;
+background-color: rgb(255, 197, 125);
+border: 0px solid;	
+</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="filters">
+                     <property name="minimumSize">
+                      <size>
+                       <width>115</width>
+                       <height>40</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>0</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">QPushButton {
+	font: 87 15pt &quot;Montserrat Black&quot;;
+	background-color: rgb(255, 197, 125);
+	border: 0px solid;	
+}
+
+QPushButton:hover {
+	background-color: rgb(195, 150, 95);
+}</string>
+                     </property>
+                     <property name="text">
+                      <string>фильтры</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="search">
+                     <property name="minimumSize">
+                      <size>
+                       <width>85</width>
+                       <height>40</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">QPushButton {
+	font: 87 15pt &quot;Montserrat Black&quot;;
+	background-color: rgb(255, 197, 125);
+	border: 0px solid;	
+}
+
+QPushButton:hover {
+	background-color: rgb(195, 150, 95);
+}</string>
+                     </property>
+                     <property name="text">
+                      <string>поиск</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLineEdit" name="lineEdit_search">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>40</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">font: 87 13pt &quot;Montserrat Black&quot;;
+background-color: rgb(255, 197, 125);
+border: 0px solid;	</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item row="1" column="0">
+                 <widget class="QListView" name="list_products">
+                  <property name="styleSheet">
+                   <string notr="true">font: 87 13pt &quot;Montserrat Black&quot;;
+</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="1">
+                 <widget class="QListView" name="list_orders">
+                  <property name="styleSheet">
+                   <string notr="true">font: 87 13pt &quot;Montserrat Black&quot;;
+</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="0">
+                 <spacer name="horizontalSpacer_2">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>45</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item row="2" column="1" alignment="Qt::AlignRight">
+                 <widget class="QPushButton" name="registration">
+                  <property name="minimumSize">
+                   <size>
+                    <width>160</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>0</width>
+                    <height>45</height>
                    </size>
                   </property>
                   <property name="styleSheet">
                    <string notr="true">QPushButton {
-	font: 87 8pt &quot;Montserrat Black&quot;;
+	font: 87 15pt &quot;Montserrat Black&quot;;
 	background-color: rgb(255, 197, 125);
 	border: 0px solid;	
 }
@@ -484,7 +594,16 @@ QPushButton:hover {
 }</string>
                   </property>
                   <property name="text">
-                   <string>оформить</string>
+                   <string>Оформление</string>
+                  </property>
+                  <property name="autoDefault">
+                   <bool>false</bool>
+                  </property>
+                  <property name="default">
+                   <bool>false</bool>
+                  </property>
+                  <property name="flat">
+                   <bool>false</bool>
                   </property>
                  </widget>
                 </item>
@@ -492,12 +611,100 @@ QPushButton:hover {
               </item>
              </layout>
             </widget>
-            <widget class="QWidget" name="page_2">
+            <widget class="QWidget" name="page_categories">
              <layout class="QHBoxLayout" name="horizontalLayout_4">
+              <property name="leftMargin">
+               <number>5</number>
+              </property>
+              <property name="topMargin">
+               <number>5</number>
+              </property>
+              <property name="rightMargin">
+               <number>5</number>
+              </property>
+              <property name="bottomMargin">
+               <number>5</number>
+              </property>
               <item>
                <layout class="QGridLayout" name="gridLayout_3">
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <item row="1" column="0">
+                 <widget class="QListView" name="list_categories">
+                  <property name="styleSheet">
+                   <string notr="true">font: 87 13pt &quot;Montserrat Black&quot;;
+</string>
+                  </property>
+                 </widget>
+                </item>
                 <item row="0" column="0">
-                 <widget class="QListView" name="listView_3"/>
+                 <layout class="QHBoxLayout" name="horizontalLayout_7">
+                  <property name="sizeConstraint">
+                   <enum>QLayout::SetDefaultConstraint</enum>
+                  </property>
+                  <property name="leftMargin">
+                   <number>5</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>5</number>
+                  </property>
+                  <item>
+                   <spacer name="horizontalSpacer_3">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>40</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item alignment="Qt::AlignRight">
+                   <widget class="QPushButton" name="add_categories">
+                    <property name="minimumSize">
+                     <size>
+                      <width>40</width>
+                      <height>40</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QPushButton {
+	font: 87 15pt &quot;Montserrat Black&quot;;
+	background-color: rgb(255, 197, 125);
+	border: 0px solid;	
+}
+
+QPushButton:hover {
+	background-color: rgb(195, 150, 95);
+}</string>
+                    </property>
+                    <property name="text">
+                     <string>+</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
                 </item>
                </layout>
               </item>
