@@ -75,67 +75,67 @@ class Ui_MainWindow(object):
         self.catalog = QtWidgets.QPushButton(self.frame_for_btn)
         self.catalog.setMinimumSize(QtCore.QSize(0, 80))
         self.catalog.setStyleSheet("QPushButton {\n"
-"    font: 87 17pt \"Montserrat Black\";\n"
-"    background-color: rgb(255, 197, 125);\n"
-"    border: 0px solid;    \n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    background-color: rgb(195, 150, 95);\n"
-"}")
+                                   "    font: 87 17pt \"Montserrat Black\";\n"
+                                   "    background-color: rgb(255, 197, 125);\n"
+                                   "    border: 0px solid;    \n"
+                                   "}\n"
+                                   "\n"
+                                   "QPushButton:hover {\n"
+                                   "    background-color: rgb(195, 150, 95);\n"
+                                   "}")
         self.catalog.setObjectName("catalog")
         self.verticalLayout_4.addWidget(self.catalog)
         self.categories = QtWidgets.QPushButton(self.frame_for_btn)
         self.categories.setMinimumSize(QtCore.QSize(0, 80))
         self.categories.setMaximumSize(QtCore.QSize(16777215, 16777215))
         self.categories.setStyleSheet("QPushButton {\n"
-"    font: 87 17pt \"Montserrat Black\";\n"
-"    background-color: rgb(255, 197, 125);\n"
-"    border: 0px solid;    \n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    background-color: rgb(195, 150, 95);\n"
-"}")
+                                      "    font: 87 17pt \"Montserrat Black\";\n"
+                                      "    background-color: rgb(255, 197, 125);\n"
+                                      "    border: 0px solid;    \n"
+                                      "}\n"
+                                      "\n"
+                                      "QPushButton:hover {\n"
+                                      "    background-color: rgb(195, 150, 95);\n"
+                                      "}")
         self.categories.setObjectName("categories")
         self.verticalLayout_4.addWidget(self.categories)
         self.products = QtWidgets.QPushButton(self.frame_for_btn)
         self.products.setMinimumSize(QtCore.QSize(0, 80))
         self.products.setStyleSheet("QPushButton {\n"
-"    font: 87 17pt \"Montserrat Black\";\n"
-"    background-color: rgb(255, 197, 125);\n"
-"    border: 0px solid;    \n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    background-color: rgb(195, 150, 95);\n"
-"}")
+                                    "    font: 87 17pt \"Montserrat Black\";\n"
+                                    "    background-color: rgb(255, 197, 125);\n"
+                                    "    border: 0px solid;    \n"
+                                    "}\n"
+                                    "\n"
+                                    "QPushButton:hover {\n"
+                                    "    background-color: rgb(195, 150, 95);\n"
+                                    "}")
         self.products.setObjectName("products")
         self.verticalLayout_4.addWidget(self.products)
         self.orders = QtWidgets.QPushButton(self.frame_for_btn)
         self.orders.setMinimumSize(QtCore.QSize(0, 80))
         self.orders.setStyleSheet("QPushButton {\n"
-"    font: 87 17pt \"Montserrat Black\";\n"
-"    background-color: rgb(255, 197, 125);\n"
-"    border: 0px solid;    \n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    background-color: rgb(195, 150, 95);\n"
-"}")
+                                  "    font: 87 17pt \"Montserrat Black\";\n"
+                                  "    background-color: rgb(255, 197, 125);\n"
+                                  "    border: 0px solid;    \n"
+                                  "}\n"
+                                  "\n"
+                                  "QPushButton:hover {\n"
+                                  "    background-color: rgb(195, 150, 95);\n"
+                                  "}")
         self.orders.setObjectName("orders")
         self.verticalLayout_4.addWidget(self.orders)
         self.reports = QtWidgets.QPushButton(self.frame_for_btn)
         self.reports.setMinimumSize(QtCore.QSize(0, 80))
         self.reports.setStyleSheet("QPushButton {\n"
-"    font: 87 17pt \"Montserrat Black\";\n"
-"    background-color: rgb(255, 197, 125);\n"
-"    border: 0px solid;    \n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    background-color: rgb(195, 150, 95);\n"
-"}")
+                                   "    font: 87 17pt \"Montserrat Black\";\n"
+                                   "    background-color: rgb(255, 197, 125);\n"
+                                   "    border: 0px solid;    \n"
+                                   "}\n"
+                                   "\n"
+                                   "QPushButton:hover {\n"
+                                   "    background-color: rgb(195, 150, 95);\n"
+                                   "}")
         self.reports.setObjectName("reports")
         self.verticalLayout_4.addWidget(self.reports)
         spacerItem = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
@@ -183,54 +183,54 @@ class Ui_MainWindow(object):
         self.comboBox_categories.setMinimumSize(QtCore.QSize(0, 40))
         self.comboBox_categories.setAutoFillBackground(False)
         self.comboBox_categories.setStyleSheet("font: 87 13pt \"Montserrat Black\";\n"
-"background-color: rgb(255, 197, 125);\n"
-"border: 0px solid;    \n"
-"")
+                                               "background-color: rgb(255, 197, 125);\n"
+                                               "border: 0px solid;    \n"
+                                               "")
         self.comboBox_categories.setObjectName("comboBox_categories")
         self.horizontalLayout_5.addWidget(self.comboBox_categories)
         self.filters = QtWidgets.QPushButton(self.frame)
         self.filters.setMinimumSize(QtCore.QSize(115, 40))
         self.filters.setMaximumSize(QtCore.QSize(0, 16777215))
         self.filters.setStyleSheet("QPushButton {\n"
-"    font: 87 15pt \"Montserrat Black\";\n"
-"    background-color: rgb(255, 197, 125);\n"
-"    border: 0px solid;    \n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    background-color: rgb(195, 150, 95);\n"
-"}")
+                                   "    font: 87 15pt \"Montserrat Black\";\n"
+                                   "    background-color: rgb(255, 197, 125);\n"
+                                   "    border: 0px solid;    \n"
+                                   "}\n"
+                                   "\n"
+                                   "QPushButton:hover {\n"
+                                   "    background-color: rgb(195, 150, 95);\n"
+                                   "}")
         self.filters.setObjectName("filters")
         self.horizontalLayout_5.addWidget(self.filters)
         self.search = QtWidgets.QPushButton(self.frame)
         self.search.setMinimumSize(QtCore.QSize(85, 40))
         self.search.setStyleSheet("QPushButton {\n"
-"    font: 87 15pt \"Montserrat Black\";\n"
-"    background-color: rgb(255, 197, 125);\n"
-"    border: 0px solid;    \n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    background-color: rgb(195, 150, 95);\n"
-"}")
+                                  "    font: 87 15pt \"Montserrat Black\";\n"
+                                  "    background-color: rgb(255, 197, 125);\n"
+                                  "    border: 0px solid;    \n"
+                                  "}\n"
+                                  "\n"
+                                  "QPushButton:hover {\n"
+                                  "    background-color: rgb(195, 150, 95);\n"
+                                  "}")
         self.search.setObjectName("search")
         self.horizontalLayout_5.addWidget(self.search)
         self.lineEdit_search = QtWidgets.QLineEdit(self.frame)
         self.lineEdit_search.setMinimumSize(QtCore.QSize(0, 40))
         self.lineEdit_search.setStyleSheet("font: 87 13pt \"Montserrat Black\";\n"
-"background-color: rgb(255, 197, 125);\n"
-"border: 0px solid;    ")
+                                           "background-color: rgb(255, 197, 125);\n"
+                                           "border: 0px solid;    ")
         self.lineEdit_search.setObjectName("lineEdit_search")
         self.horizontalLayout_5.addWidget(self.lineEdit_search)
         self.gridLayout_2.addWidget(self.frame, 0, 0, 1, 1)
         self.list_products = QtWidgets.QListView(self.page_catalog)
         self.list_products.setStyleSheet("font: 87 13pt \"Montserrat Black\";\n"
-"")
+                                         "")
         self.list_products.setObjectName("list_products")
         self.gridLayout_2.addWidget(self.list_products, 1, 0, 1, 1)
         self.list_orders = QtWidgets.QListView(self.page_catalog)
         self.list_orders.setStyleSheet("font: 87 13pt \"Montserrat Black\";\n"
-"")
+                                       "")
         self.list_orders.setObjectName("list_orders")
         self.gridLayout_2.addWidget(self.list_orders, 1, 1, 1, 1)
         spacerItem2 = QtWidgets.QSpacerItem(40, 45, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
@@ -239,14 +239,14 @@ class Ui_MainWindow(object):
         self.registration.setMinimumSize(QtCore.QSize(160, 0))
         self.registration.setMaximumSize(QtCore.QSize(0, 45))
         self.registration.setStyleSheet("QPushButton {\n"
-"    font: 87 15pt \"Montserrat Black\";\n"
-"    background-color: rgb(255, 197, 125);\n"
-"    border: 0px solid;    \n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    background-color: rgb(195, 150, 95);\n"
-"}")
+                                        "    font: 87 15pt \"Montserrat Black\";\n"
+                                        "    background-color: rgb(255, 197, 125);\n"
+                                        "    border: 0px solid;    \n"
+                                        "}\n"
+                                        "\n"
+                                        "QPushButton:hover {\n"
+                                        "    background-color: rgb(195, 150, 95);\n"
+                                        "}")
         self.registration.setAutoDefault(False)
         self.registration.setDefault(False)
         self.registration.setFlat(False)
@@ -265,7 +265,7 @@ class Ui_MainWindow(object):
         self.gridLayout_3.setObjectName("gridLayout_3")
         self.list_categories = QtWidgets.QListView(self.page_categories)
         self.list_categories.setStyleSheet("font: 87 13pt \"Montserrat Black\";\n"
-"")
+                                           "")
         self.list_categories.setObjectName("list_categories")
         self.gridLayout_3.addWidget(self.list_categories, 1, 0, 1, 1)
         self.horizontalLayout_7 = QtWidgets.QHBoxLayout()
@@ -277,14 +277,14 @@ class Ui_MainWindow(object):
         self.add_categories = QtWidgets.QPushButton(self.page_categories)
         self.add_categories.setMinimumSize(QtCore.QSize(40, 40))
         self.add_categories.setStyleSheet("QPushButton {\n"
-"    font: 87 15pt \"Montserrat Black\";\n"
-"    background-color: rgb(255, 197, 125);\n"
-"    border: 0px solid;    \n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    background-color: rgb(195, 150, 95);\n"
-"}")
+                                          "    font: 87 15pt \"Montserrat Black\";\n"
+                                          "    background-color: rgb(255, 197, 125);\n"
+                                          "    border: 0px solid;    \n"
+                                          "}\n"
+                                          "\n"
+                                          "QPushButton:hover {\n"
+                                          "    background-color: rgb(195, 150, 95);\n"
+                                          "}")
         self.add_categories.setObjectName("add_categories")
         self.horizontalLayout_7.addWidget(self.add_categories, 0, QtCore.Qt.AlignRight)
         self.gridLayout_3.addLayout(self.horizontalLayout_7, 0, 0, 1, 1)
@@ -300,7 +300,8 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "Информационная система для оформления заказа в зоомагазине"))
+        MainWindow.setWindowTitle(
+            _translate("MainWindow", "Информационная система для оформления заказа в зоомагазине"))
         self.label.setText(_translate("MainWindow", "Информационная система для оформления заказа в Зоомагазине"))
         self.catalog.setText(_translate("MainWindow", "Каталог"))
         self.categories.setText(_translate("MainWindow", "Категории"))
@@ -315,6 +316,7 @@ class Ui_MainWindow(object):
 
 if __name__ == "__main__":
     import sys
+
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = QtWidgets.QMainWindow()
     ui = Ui_MainWindow()
